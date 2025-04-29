@@ -1,0 +1,6 @@
+<launch>
+<include file="$(find nyku)/launch/NeckBase.launch" />
+<param name="wings/port" value="/dev/ttyAMA0"/>
+<node name="WingController" pkg="nyku" type="WingController.py" output="screen"/>
+
+</launch>

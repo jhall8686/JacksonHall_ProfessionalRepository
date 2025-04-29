@@ -1,0 +1,103 @@
+{
+    "neutral": {
+        "radius_multiplier": 1.0,
+        "eye_color": "white",
+        "iris_color": "iris_color"
+    },
+    "happy": {
+        "radius_multiplier": 0.9,
+        "eye_color": "white",
+        "iris_color": "iris_color",
+        "rectangles": [
+            {
+                "width": 2.0,
+                "height": 1.0,
+                "rotation": 0,
+                "offset_x": 0.0,
+                "offset_y": 0.5,
+                "color": "black"
+            }
+        ]
+    },
+    "bored": {
+        "radius_multiplier": 1.0,
+        "eye_color": "white",
+        "iris_color": "iris_color",
+        "rectangles": [
+            {
+                "width": 2.0,
+                "height": 1.0,
+                "rotation": 0,
+                "offset_x": 0.0,
+                "offset_y": -0.5,
+                "color": "black"
+            }
+        ]
+    },
+    "angry": {
+        "radius_multiplier": 0.61,
+        "eye_color": "#0829ff",
+        "iris_color": "iris_color",
+        "rectangles": [
+            {
+                "width": 2.0,
+                "height": 0.5,
+                "rotation": 0,
+                "offset_x": 0.0,
+                "offset_y": -0.75,
+                "color": "black"
+            },
+            {
+                "width": 2.0,
+                "height": 0.5,
+                "rotation": 0,
+                "offset_x": 0.0,
+                "offset_y": 0.75,
+                "color": "black"
+            }
+        ]
+    },
+    "sad": {
+        "radius_multiplier": 1.1,
+        "eye_color": "white",
+        "iris_color": "iris_color",
+        "rectangles": [
+            {
+                "width": 2.0,
+                "height": 0.6,
+                "rotation": 0,
+                "offset_x": 0.0,
+                "offset_y": -0.7,
+                "color": "black"
+            },
+            {
+                "width": 2.0,
+                "height": 0.6,
+                "rotation": 0,
+                "offset_x": 0.0,
+                "offset_y": 0.7,
+                "color": "black"
+            }
+        ]
+    },
+    "surprised": {
+        "radius_multiplier": 1.2,
+        "eye_color": "white",
+        "iris_color": "iris_color"
+    },
+    "cute": {
+        "radius_multiplier": 0.91,
+        "eye_color": "#ffffff",
+        "iris_color": "#0000ff",
+        "rectangles": [
+            {
+                "width": 3.0,
+                "height": 0.83,
+                "rotation": 162,
+                "offset_x": 0.19,
+                "offset_y": 1.0,
+                "color": "#000000"
+            }
+        ]
+    }
+}

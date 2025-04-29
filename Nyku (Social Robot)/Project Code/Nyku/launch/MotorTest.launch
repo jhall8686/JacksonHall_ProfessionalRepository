@@ -1,0 +1,5 @@
+<launch>
+<node name="neck_control_test" pkg="nyku" type="test_neck_control.py"/>
+<node name="wing_control_test" pkg="nyku" type="test_wing_controller.py"/>
+
+</launch>

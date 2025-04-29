@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/nyku/Nyku/catkin_ws/devel/lib/python3.11/site-packages",
+        "/home/nyku/miniforge3/envs/ros_env/lib/python3.11/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/nyku/Nyku/catkin_ws/devel/lib/python3.11/site-packages",
+        "/home/nyku/miniforge3/envs/ros_env/lib/python3.11/site-packages"
+    ]
+}

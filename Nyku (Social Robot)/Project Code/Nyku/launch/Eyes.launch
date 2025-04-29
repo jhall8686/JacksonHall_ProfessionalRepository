@@ -1,0 +1,5 @@
+<launch>
+    <param name="/eyes/emotion_dict" value="$(find nyku)/config/emotion_dict2.json"/>
+    <node name="eyes" pkg="nyku" type="eyes.py" output="screen"/>
+    
+</launch>

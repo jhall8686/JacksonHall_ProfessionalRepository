@@ -1,0 +1,6 @@
+<launch>
+    <param name="NeckBase/port" value="/dev/ttyUSB0"/>
+    <param name="file"              value="$(find nyku)/config/nyku_motor_config.yaml"/>
+    <node name="NeckBaseController" pkg="nyku" type="NeckBaseController.py" output="screen"/>
+    
+</launch>

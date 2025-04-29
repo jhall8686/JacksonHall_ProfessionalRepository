@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find nyku)/launch/Motor.launch" />
+    <include file="$(find nyku)/launch/Eyes.launch" />
+    <node name="audio" pkg="nyku" type="emotion_sound_player.py" output="screen"/>
+</launch>
